@@ -1,0 +1,32 @@
+{
+  "name": "micro-blogging-app",
+  "version": "1.0.0",
+  "description": "This project contains backend code for micro blogging app made. Executed in node.js. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e ts  --exec \"npm run myapp\"",
+    "myapp": "tsc -p . && node dist/server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "Mysql",
+    "Backend"
+  ],
+  "author": "Yesha Parmar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.20.0",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  }
+}
